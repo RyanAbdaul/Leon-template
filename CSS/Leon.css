@@ -125,6 +125,12 @@ header .container {
     align-items: center;
 }
 
+@media (max-width: 576px) {
+    header .container {
+        width: 350px;
+    }    
+}
+
 header .container .logo {
     width: 60px;
     height: 24px;
